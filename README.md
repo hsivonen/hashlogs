@@ -29,9 +29,9 @@ the same hash input result in the same hash output. However, after the
 execution has ended, it's infeasible to try to reverse the hash by brute
 force, because the key is not known.
 
-If the hash function was not keyed (or the input wasn't alternatively salted,
+If the hash function was not keyed (or the input wasn't alternatively salted),
 it would be feasible to brute force a relatively small input space, such as
-the IPv4 address space.)
+the IPv4 address space.
 
 8 bytes of output are taken for each hash. The value is represented as
 upper-case hexadecimal (16 ASCII characters).
