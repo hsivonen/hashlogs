@@ -1,7 +1,7 @@
 [package]
 name = "hashlogs"
 description = "Command-line utility that hashes the part before a space on each line from stdin with blake2b keyed with an ephemeral randomly-generated key and writes to stdout"
-version = "1.0.1"
+version = "1.0.2"
 authors = ["Henri Sivonen <hsivonen@hsivonen.fi>"]
 license = "MIT/Apache-2.0"
 readme = "README.md"
