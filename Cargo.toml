@@ -1,12 +1,12 @@
 [package]
 name = "hashlogs"
 description = "Command-line utility that hashes the part before a space on each line from stdin with blake2b keyed with an ephemeral randomly-generated key and writes to stdout"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Henri Sivonen <hsivonen@hsivonen.fi>"]
 license = "MIT/Apache-2.0"
 readme = "README.md"
-documentation = "https://docs.rs/hashlogs/"
-homepage = "https://docs.rs/hashlogs/"
+documentation = "https://github.com/hsivonen/hashlogs/blob/master/README.md"
+homepage = "https://github.com/hsivonen/hashlogs"
 repository = "https://github.com/hsivonen/hashlogs"
 keywords = ["crypto", "hash"]
 categories = ["text-processing", "command-line-utilities"]

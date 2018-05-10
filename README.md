@@ -8,6 +8,12 @@
 each line from stdin with blake2b keyed with an ephemeral randomly-generated
 key and writes to stdout.
 
+## Installation
+
+```sh
+cargo install hashlogs
+```
+
 ## Usage
 
 No command line argument. Reads from stdin and writes to stdout.

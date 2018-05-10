@@ -21,6 +21,7 @@ pub fn first_space(buffer: &[u8]) -> Option<usize> {
 }
 
 fn main() {
+	assert_eq!(std::env::args_os().len(), 1, "This program should be run without command-line arguments");
 	let mut key = [0u8; 16];
 	let mut rng = rand::os::OsRng::new().expect("Failed to open system random number generator");
 	rng.fill_bytes(&mut key[..]);
